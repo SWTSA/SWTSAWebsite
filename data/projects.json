@@ -1,0 +1,22 @@
+[
+  {
+    "type": "Web Development",
+    "content": [
+      {
+        "title": "SWTSA Website",
+        "link": "https://github.com/",
+        "file" : "/projects/SWWebsite.png"
+      }
+    ]
+  },
+  {
+    "type": "Competitive Programming",
+    "content": [
+      {
+        "title": "ACSL",
+        "link": "https://www.scores.acsl.org/leaderboard/teams/i5/",
+        "file" : "/projects/ACSL1.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "members": [
+      {
+        "name": "Ryan Duong",
+        "role": "President",
+        "image": ""
+      },
+      {
+        "name": "Pragyan Yadav",
+        "role": "Vice President",
+        "image": ""
+      },
+      {
+        "name": "Ria Shah",
+        "role": "Secretary",
+        "image": ""
+      },
+      {
+        "name": "Mehana Nagarur",
+        "role": "Treasurer",
+        "image": ""
+      },
+      {
+        "name": "Sample Member",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sample Member",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sample Member",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sample Member",
+        "role": "Member",
+        "image": ""
+      },
+      {
+        "name": "Sample Member",
+        "role": "Member",
+        "image": ""
+      }
+    ]
+  }
+]
+
+  
