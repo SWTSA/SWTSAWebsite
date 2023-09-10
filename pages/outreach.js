@@ -20,7 +20,7 @@ export default function Projects() {
       <div className="px-5 md:px-20 mx-auto max-w-[1400px] w-full">
         <PageHeader
           title="Girlswhocode"
-          description="A showcase of some of the volunteering actitives organised by South Windsor TSA."
+          description="Coming soon!."
         />
         {projects.map((project, index) => (
           <section key={index}>
