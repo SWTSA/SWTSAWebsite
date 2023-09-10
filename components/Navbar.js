@@ -69,12 +69,12 @@ export default function Navbar() {
           </Link>
         ))}
         <a
-          href="//lnexun.com"
+          href="youtube.come"
           target="_blank"
           rel="noreferrer"
           className="button hidden lg:inline-block"
         >
-          ln(exun)
+          Blog
         </a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -101,6 +101,7 @@ export default function Navbar() {
     </div>
   );
 }
+
 const MobileNavbar = ({ currentRoute, close }) => {
   return (
     <div className="z-[2] fixed top-0 left-0 h-screen w-full bg-primary/75">
@@ -137,7 +138,7 @@ const MobileNavbar = ({ currentRoute, close }) => {
         </ul>
         <div className="text-white flex">
           <a
-            href="https://facebook.com/ExunClan"
+            href="https://facebook.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -152,7 +153,7 @@ const MobileNavbar = ({ currentRoute, close }) => {
             </svg>
           </a>
           <a
-            href="https://instagram.com/exunclan"
+            href="https://instagram.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -167,7 +168,7 @@ const MobileNavbar = ({ currentRoute, close }) => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/company/exun-clan/mycompany/"
+            href="https://www.linkedin.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -178,7 +179,6 @@ const MobileNavbar = ({ currentRoute, close }) => {
               />
             </svg>
           </a>
-        </div>
       </div>
     </div>
   );
