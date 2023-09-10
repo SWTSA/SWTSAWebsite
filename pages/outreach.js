@@ -15,11 +15,11 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Outreach | SWTSA</title>
+        <title>Girlswhocode | SWTSA</title>
       </Head>
       <div className="px-5 md:px-20 mx-auto max-w-[1400px] w-full">
         <PageHeader
-          title="Outreach"
+          title="Girlswhocode"
           description="A showcase of some of the volunteering actitives organised by South Windsor TSA."
         />
         {projects.map((project, index) => (
