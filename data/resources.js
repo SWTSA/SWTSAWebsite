@@ -1,23 +1,16 @@
 export const resources = [
   {
-    image: "elonmusk.jpg",
+    image: "gamedev.jpeg",
     name: "Game Development",
     description:
-      "Ryan this is your time to shine",
+      "Making your first game can be difficult. Remember that your goal is to create a game, any game. Start small, focus on basic gameplay, and pick a project to finish. Here are some resources to help you along the journey.      ",
     link: "https://docs.google.com/",
   },
   {
-    image: "elonmusk.jpg",
+    image: "ACSL.png",
     name: "ACSL",
     description:
-      "Basic Lessons on ACSL",
-    link: "https://docs.google.com/",
-  },
-  {
-    image: "elonmusk.jpg",
-    name: "Web Dev",
-    description:
-      "React.js, HTML and CSS",
+      "ACSL, or the American Computer Science League, provides invaluable lessons to aspiring computer scientists and enthusiasts. These basic lessons serve as a solid foundation for students eager to delve into the world of computer science and programming.",
     link: "https://docs.google.com/",
   }
 ]
