@@ -46,7 +46,7 @@ export default function Navbar() {
           <div className="flex justify-center py-4 px-12 shadow-[0_-8px_35px_0_rgba(54, 209, 202, 0.3)]">
           <div className="flex justify-between items-center text-lg font-medium text-accent max-w-[1400px] w-full lg:justify-evenly">
         <Link href="/">
-          <Image
+          <img
             src="\tsalogo.svg"
             alt="Logo"
             width={130}
