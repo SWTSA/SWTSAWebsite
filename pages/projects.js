@@ -21,7 +21,7 @@ export default function Projects() {
       <div className="px-5 md:px-20 mx-auto max-w-[1400px] w-full">
         <PageHeader
           title="Projects"
-          description="A collection of projects developed by the South Windsor TSA club raning from Web Developement to Competitive Programming"
+          description="A collection of projects and outreach activities conducted by the South Windsor TSA club."
         />
         {projects.map((project, index) => (
           <section key={index}>
