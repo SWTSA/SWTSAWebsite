@@ -4,12 +4,12 @@
     "content": [
       {
         "title": "Girlswhocode",
-        "link": "https://github.com/",
+        "link": "/outreach",
         "file": "/projects/coming.png"
       },
       {
         "title": "Stem Nights",
-        "link": "https://github.com/",
+        "link": "",
         "file": "/projects/coming.png"
       }
 
@@ -20,7 +20,7 @@
     "content": [
       {
         "title": "SWTSA Website",
-        "link": "https://github.com/SWTSA/SWTSA-Website",
+        "link": "https://github.com/SWTSA/SWTSAWebsite",
         "file" : "/projects/SWWebsite.png"
       }
     ]
