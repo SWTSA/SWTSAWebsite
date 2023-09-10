@@ -1,10 +1,31 @@
 [
   {
+    "type": "Outreach",
+    "content": [
+      {
+        "title": "Girlswhocode",
+        "link": "https://github.com/",
+        "file": "/projects/coming.png"
+      },
+      {
+        "title": "Stem Nights",
+        "link": "https://github.com/",
+        "file": "/projects/coming.png"
+      },
+      {
+        "title": "Sample Activity",
+        "link": "https://github.com/",
+        "file": "/projects/coming.png"
+      }
+
+    ]
+  },
+  {
     "type": "Web Development",
     "content": [
       {
         "title": "SWTSA Website",
-        "link": "https://github.com/",
+        "link": "https://github.com/SWTSA/SWTSA-Website",
         "file" : "/projects/SWWebsite.png"
       }
     ]
@@ -14,9 +35,10 @@
     "content": [
       {
         "title": "ACSL",
-        "link": "https://www.scores.acsl.org/leaderboard/teams/i5/",
+        "link": "https://www.scores.acsl.org/legacy/teams/2023/i5/",
         "file" : "/projects/ACSL1.png"
       }
+
     ]
   }
 ]

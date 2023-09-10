@@ -12,7 +12,7 @@ export default function Photos({ aboutRef }) {
                 key={index}
                 className="text-4xl mt-24 text-primary text-left font-bold"
               >
-                SWTSA Gallery
+                {/* SWTSA Gallery */}
               </h2>
               <div
                 key={index}
