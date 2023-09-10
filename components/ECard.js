@@ -15,7 +15,7 @@ export default function ECard({
       style={{ backgroundColor: bgColor }}
     >
       <div className="flex flex-col items-center justify-center w-full rounded-t-lg p-4 h-auto w-11/12 lg:rounded-none lg:rounded-l-lg">
-        <img
+        <Image
           className={
             "mt-12 mx-12 " +
             (!imageSubtitle ? "mb-12 " : "") +
