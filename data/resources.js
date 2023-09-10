@@ -7,7 +7,7 @@ export const resources = [
     link: "https://docs.google.com/",
   },
   {
-    image: "ACSL.png",
+    image: "acslImage.png",
     name: "ACSL",
     description:
       "ACSL, or the American Computer Science League, provides invaluable lessons to aspiring computer scientists and enthusiasts. These basic lessons serve as a solid foundation for students eager to delve into the world of computer science and programming.",
