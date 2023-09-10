@@ -68,7 +68,7 @@ export default function Navbar() {
             </p>
           </Link>
         ))}
-        {/* <a
+        <a
           href="//medium.com"
           target="_blank"
           rel="noreferrer"
@@ -76,7 +76,7 @@ export default function Navbar() {
           style={{ backgroundColor: '#DB9101', color: '#FFFFFF' }}
         >
           Theotechnis
-        </a> */}
+        </a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6 inline-block lg:hidden cursor-pointer"
