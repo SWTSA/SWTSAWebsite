@@ -34,73 +34,6 @@ const links = [
   },
 ];
 
-export default function Navbar() {
-  const [showMobile, setShowMobile] = useState(false);
-  const router = useRouter();
-
-  useEffect(() => {
-    setShowMobile(false);
-  }, []);
-
-  return (
-    <div className="flex justify-center py-4 px-12 shadow-[0_-8px_35px_0_rgba(41,119,245,0.26)]">
-      <div className="flex justify-between items-center text-lg font-medium text-accent max-w-[1400px] w-full lg:justify-evenly">
-        <Link href="/">
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={170}
-            height={70}
-            className="cursor-pointer"
-          />
-        </Link>
-        {links.map(({ label, href }) => (
-          <Link key={label} href={href} className="hidden lg:inline-block">
-            <p
-              className={
-                "cursor-pointer" +
-                (router.pathname === href
-                  ? " underline decoration-[#D0E2FF] decoration-8"
-                  : "")
-              }
-            >
-              {label}
-            </p>
-          </Link>
-        ))}
-        <a
-          href="youtube.come"
-          target="_blank"
-          rel="noreferrer"
-          className="button hidden lg:inline-block"
-        >
-          Blog
-        </a>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 inline-block lg:hidden cursor-pointer"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-          onClick={() => setShowMobile(!showMobile)}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </div>
-      {showMobile && (
-        <MobileNavbar
-          currentRoute={router.pathname}
-          close={() => setShowMobile(false)}
-        />
-      )}
-    </div>
-  );
-}
 
 const MobileNavbar = ({ currentRoute, close }) => {
   return (
@@ -179,10 +112,76 @@ const MobileNavbar = ({ currentRoute, close }) => {
               />
             </svg>
           </a>
+        </div>
       </div>
     </div>
   );
 };
+
+export default function Navbar() {
+  const [showMobile, setShowMobile] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    setShowMobile(false);
+  }, []);
+
+  return (
+    <div className="flex justify-center py-4 px-12 shadow-[0_-8px_35px_0_rgba(41,119,245,0.26)]">
+      <div className="flex justify-between items-center text-lg font-medium text-accent max-w-[1400px] w-full lg:justify-evenly">
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={170}
+            height={70}
+            className="cursor-pointer"
+          />
+        </Link>
+        {links.map(({ label, href }) => (
+          <Link key={label} href={href} className="hidden lg:inline-block">
+            <p
+              className={
+                "cursor-pointer" +
+                (router.pathname === href
+                  ? " underline decoration-[#D0E2FF] decoration-8"
+                  : "")
+              }
+            >
+              {label}
+            </p>
+          </Link>
+        ))}
+        <a
+          href="youtube.come"
+          target="_blank"
+          rel="noreferrer"
+          className="button hidden lg:inline-block"
+        >
+          Blog
+        </a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6 inline-block lg:hidden cursor-pointer"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+          onClick={() => setShowMobile(!showMobile)}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </div>
+      {showMobile && (
+        <MobileNavbar
+          currentRoute={router.pathname}
+          close={() => setShowMobile(false)}
+        />
+      )}
     </div>
   );
-};
+}
