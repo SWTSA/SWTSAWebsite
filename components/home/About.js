@@ -17,7 +17,7 @@ export default function About({ aboutRef }) {
             </p>
           </div>
         </div>
-        <img
+        <Image
           src="/aboutim.jpg"
           alt="Illustration"
           height={1000}
