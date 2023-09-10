@@ -43,14 +43,14 @@ export default function Navbar() {
   }, []);
 
   return (
-          <div className="flex justify-center py-4 px-12 shadow-[0_-8px_35px_0_rgba(54, 209, 202, 0.3)]">
-          <div className="flex justify-between items-center text-lg font-medium text-accent max-w-[1400px] w-full lg:justify-evenly">
+    <div className="flex justify-center py-4 px-12 shadow-[0_-8px_35px_0_rgba(41,119,245,0.26)]">
+      <div className="flex justify-between items-center text-lg font-medium text-accent max-w-[1400px] w-full lg:justify-evenly">
         <Link href="/">
           <Image
-            src="\tsalogo.svg"
+            src="/logo.png"
             alt="Logo"
-            width={130}
-            height={30}
+            width={170}
+            height={70}
             className="cursor-pointer"
           />
         </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
               className={
                 "cursor-pointer" +
                 (router.pathname === href
-                  ? " underline decoration-[#FFB302] decoration-8"
+                  ? " underline decoration-[#D0E2FF] decoration-8"
                   : "")
               }
             >
@@ -69,13 +69,12 @@ export default function Navbar() {
           </Link>
         ))}
         <a
-          href="//medium.com"
+          href="//lnexun.com"
           target="_blank"
           rel="noreferrer"
           className="button hidden lg:inline-block"
-          style={{ backgroundColor: '#DB9101', color: '#FFFFFF' }}
         >
-          Theotechnis
+          ln(exun)
         </a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +101,6 @@ export default function Navbar() {
     </div>
   );
 }
-
 const MobileNavbar = ({ currentRoute, close }) => {
   return (
     <div className="z-[2] fixed top-0 left-0 h-screen w-full bg-primary/75">
@@ -139,7 +137,7 @@ const MobileNavbar = ({ currentRoute, close }) => {
         </ul>
         <div className="text-white flex">
           <a
-            href="https://facebook.com"
+            href="https://facebook.com/ExunClan"
             target="_blank"
             rel="noreferrer"
           >
@@ -154,7 +152,7 @@ const MobileNavbar = ({ currentRoute, close }) => {
             </svg>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/exunclan"
             target="_blank"
             rel="noreferrer"
           >
@@ -168,11 +166,11 @@ const MobileNavbar = ({ currentRoute, close }) => {
               />
             </svg>
           </a>
-          // <a
-          //   href="https://www.linkedin.com"
-          //   target="_blank"
-          //   rel="noreferrer"
-          // >
+          <a
+            href="https://www.linkedin.com/company/exun-clan/mycompany/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg style={{ width: "24px", height: "24px" }} viewBox="0 0 24 24">
               <path
                 fill="currentColor"
@@ -182,6 +180,9 @@ const MobileNavbar = ({ currentRoute, close }) => {
           </a>
         </div>
       </div>
+    </div>
+  );
+};
     </div>
   );
 };
