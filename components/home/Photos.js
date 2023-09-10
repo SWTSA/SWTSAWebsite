@@ -22,7 +22,7 @@ export default function Photos({ aboutRef }) {
                   return (
                     <>
                       <div key={i} className="flex flex-col p-6 mx-2 sm:mx-12">
-                        <img
+                        <Image
                                  className="z-[1]"
                                  src={item.link}
                                  width={800}
