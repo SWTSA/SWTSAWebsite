@@ -23,7 +23,7 @@ export default function ResourceDocs({ resources }) {
 
   return (
     <div>
-      <HeadingWithIllustration title="Check These Out!" />
+      <HeadingWithIllustration title="Coming Soon!" />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {_resources.map((resource, i) => (
           <ECard
